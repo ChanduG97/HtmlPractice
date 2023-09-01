@@ -1,0 +1,37 @@
+/* Comments in CSS */
+/* it can be 
+multiline comment
+*/
+
+html, body
+{
+/* height : 100%;
+ width : 100%;*/
+background-color : orange; /* Changes the background color of the body */
+
+}
+
+h1{background-color : green;}
+
+.heading
+
+{
+
+color : blue;
+
+}
+
+* {
+  
+color : purple;
+
+  }
+
+h1, p
+{
+color : green;
+}
+
+body
+{
+color : skyblue}

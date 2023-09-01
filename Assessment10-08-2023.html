@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+    <link rel="Stylesheet" type="text/css" href="Assessment10-08-2023.css">
+</head>
+<body>
+    <!-- <img src="https://wallpapercave.com/uwp/uwp3855176.png"> -->
+    <h3>Welcome to Shopping WebPage</h3>
+
+    <table>
+    <form id="LoginForm">
+        <label for="UserID">User ID : </label>
+        <input type="text" id="UserID" name="userID"><br><br>
+        <label for="Password">Password : </label>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
+        </form>
+    </table>
+    <script>
+        document.getElementById("LoginForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            var UserID = document.getElementById("UserId").value;
+            var Password = document.getElementById("Password").value;
+
+            if (userId === "Admin" && password === "India@123") {
+                alert("Login successful!");
+                // You can redirect the user to another page here.
+            } else {
+                alert("Login failed. Please check your credentials.");
+            }
+        });
+    </script>
+</body>
+</html>

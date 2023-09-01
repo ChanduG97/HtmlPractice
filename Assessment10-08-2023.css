@@ -1,0 +1,22 @@
+#chandu
+{
+    
+    text-align : center ;
+    background-repeat : no-repeat ;
+    background-position : center ;
+    background-attachment : fixed ;
+    background-size : cover;>
+}
+
+h2
+{
+    text-decoration-style: wavy;
+    text-align: center;
+    background-color: darkcyan;
+    border-radius: 25px;
+
+}
+
+body {
+    background-image:url("https://wallpapercave.com/uwp/uwp3855176.png");
+}

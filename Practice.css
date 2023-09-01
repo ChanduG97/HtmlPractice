@@ -1,0 +1,24 @@
+h1
+{
+    background-color: aqua;
+    text-align: end;
+    font-size: 500;
+}
+h2
+{
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 20px;
+    border-color: brown;
+}
+
+h3
+{
+    background-color: darkgoldenrod;
+    margin-left: 10px ;
+    margin-block: 50px;
+    padding-left: 10px;
+    padding-top: 25px;
+    text-decoration: solid;
+
+}

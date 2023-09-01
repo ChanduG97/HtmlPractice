@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="Stylesheet" type="text/css" href="Assessment10-08-2023.css">
+</head>
+<body>
+   
+    <center>
+    <h2>Welcome to Shopping Page</h2>
+    <form id="loginForm">
+     
+        <label for="userId">User ID:</label>
+        <input type="text" id="userId" name="userId"><br><br>
+       
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="Password"><br><br>
+        <input type="submit" value="Login">
+        
+    </form>
+    </center>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(event) 
+        {
+            event.preventDefault();
+            var userId = document.getElementById("userId").value;
+            var password = document.getElementById("password").value;
+
+            if (userId === "Admin" && password === "India@123") 
+            {
+                alert("Login successful!");
+                // You can redirect the user to another page here.
+            } 
+            else 
+            {
+                alert("Login failed. Please check your credentials.");
+            }
+        });
+    </script>
+</body>
+</html>
